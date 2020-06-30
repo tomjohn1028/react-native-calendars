@@ -133,7 +133,10 @@ class Day extends Component {
 
     if (this.props.marking) {
       containerStyle.push({
-        borderRadius: 17
+        borderTopLeftRadius:17,
+        borderTopRightRadius:17,
+        borderBottomLeftRadius:17,
+        borderBottomRightRadius:17
       });
 
       const flags = this.markingStyle;
